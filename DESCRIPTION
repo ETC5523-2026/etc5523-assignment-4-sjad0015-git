@@ -1,0 +1,13 @@
+Package: wplbowling
+Title: Explore Bowling in the Women's Premier League
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shravani", "Jadhav", , "sjad0015@student.monash.edu", role = c("aut", "cre"))
+Description: Provides Women's Premier League bowling data, summary functions,
+    and a Shiny application for comparing bowlers across innings phases.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+LazyData: true
