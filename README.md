@@ -2,6 +2,8 @@
 
 Explore bowling performance in the Women's Premier League (WPL).
 
+Documentation website: <https://etc5523-2026.github.io/etc5523-assignment-4-sjad0015-git/>
+
 ## Purpose
 
 This package helps cricket coaches and analysts investigate which bowlers perform most effectively across different phases of a T20 innings.
@@ -15,7 +17,11 @@ Source: <https://cricsheet.org/>
 ## Installation
 
 ``` r
-devtools::install_github("ETC5523-2026/etc5523-assignment-4-sjad0015-git")
+# install.packages("remotes")
+remotes::install_github(
+  "ETC5523-2026/etc5523-assignment-4-sjad0015-git",
+  dependencies = TRUE
+)
 ```
 
 ## Launch the app

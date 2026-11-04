@@ -6,6 +6,7 @@ Authors@R:
 Description: Provides Women's Premier League bowling data, summary functions,
     and a Shiny application for comparing bowlers across innings phases.
 License: MIT + file LICENSE
+URL: https://etc5523-2026.github.io/etc5523-assignment-4-sjad0015-git/
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.1.0)
@@ -15,5 +16,8 @@ Imports:
     shiny
 Suggests:
     bslib,
-    ggplot2
+    ggplot2,
+    knitr,
+    rmarkdown
 Config/roxygen2/version: 8.1.1
+VignetteBuilder: knitr
