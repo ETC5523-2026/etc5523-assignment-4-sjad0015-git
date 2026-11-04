@@ -1,3 +1,4 @@
+
 #' Summarise bowling for one season and phase of the innings
 #'
 #' Combines the chosen phases of the innings for each bowler in a season,
@@ -5,12 +6,12 @@
 #' rate (runs conceded per over). Bowlers are sorted from the lowest economy
 #' rate to the highest.
 #'
-#' @param data A data frame with the columns of [wpl_bowling]. Defaults to
-#'   [wpl_bowling].
+#' @param data A data frame containing bowling statistics. Defaults to
+#'   `wpl_bowling`.
 #' @param season_value A single season label, for example `"2022/23"`. Use
-#'   `unique(wpl_bowling$season)` to see the options.
+#'   `unique(data$season)` to see the options.
 #' @param phases One or more phases of the innings, taken from
-#'   `levels(wpl_bowling$phase)`.
+#'   `levels(data$phase)`.
 #' @param min_overs Minimum overs a bowler must have bowled in the chosen
 #'   phases to be included. Defaults to 2.
 #'

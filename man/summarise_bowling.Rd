@@ -7,14 +7,14 @@
 summarise_bowling(data = wpl_bowling, season_value, phases, min_overs = 2)
 }
 \arguments{
-\item{data}{A data frame with the columns of \link{wpl_bowling}. Defaults to
-\link{wpl_bowling}.}
+\item{data}{A data frame containing bowling statistics. Defaults to
+\code{wpl_bowling}.}
 
 \item{season_value}{A single season label, for example \code{"2022/23"}. Use
-\code{unique(wpl_bowling$season)} to see the options.}
+\code{unique(data$season)} to see the options.}
 
 \item{phases}{One or more phases of the innings, taken from
-\code{levels(wpl_bowling$phase)}.}
+\code{levels(data$phase)}.}
 
 \item{min_overs}{Minimum overs a bowler must have bowled in the chosen
 phases to be included. Defaults to 2.}

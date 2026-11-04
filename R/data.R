@@ -1,3 +1,5 @@
+#' Women's Premier League Bowling Data
+#'
 #' @source Cricsheet, https://cricsheet.org/.
 #' Match data licensed under ODC-By 1.0.
 #' 
@@ -24,4 +26,6 @@
 #'   `data-raw/wpl-bowling.R`.
 #' @source Cricsheet, <https://cricsheet.org>, downloaded with the
 #'   cricketdata package. Please credit Cricsheet if you reuse these data.
+#' @name wpl_bowling
+#' @usage data("wpl_bowling")
 "wpl_bowling"
